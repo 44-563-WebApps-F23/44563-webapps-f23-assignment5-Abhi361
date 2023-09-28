@@ -1,6 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Roaming the Cities</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    
+        .container {
+            padding: 20px;
+        }
+    
+        .row {
+            margin: 20px 0;
+        }
+    
+        
+        .col-sm-2 {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #f0f0f0;
+            font-size: 24px; 
+            font-weight: bold;
+        }
+    
+        
+        .col-md {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #f0f0f0;
+            font-size: 18px; 
+        }
+
+        .custom-image {
+            width: 400px;
+            height: 400px;
+        }
+
+        .custom-navbar {
+    background-color: #cae8a6; 
+}
+
+
+        
+    </style>
+    
+
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            Select Page
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+            <a class="dropdown-item" href="basic.html">Basic Page</a>
+            <a class="dropdown-item" href="advanced.html">Advanced Page</a>
+        </div>
+    </div>
+    
+   
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">A Few Cities</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="cities.html"><b>Cities</b></a>
+                
+            </li>
+            <li>
+                <a class="nav-link" href="basic.html"><b>Basic</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html"><b>Advanced</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
   <title>Tourist Places</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,6 +149,15 @@
             background-color: #f0f0f0;
             font-size: 18px; 
         }
+
+
+
+        .custom-image {
+            width: 400px;
+            height: 400px;
+        }
+
+
     </style>
     
 
@@ -84,8 +200,139 @@
     </div>
 </div>
 
+    <div class="image-container">
+        <img src="Amsterdam.jpeg" alt="City 1" class="custom-image img-fluid">
+        <img src="Paris.jpeg" alt="City 2" class="custom-image img-fluid">
+        <img src="Preston.jpeg" alt="City 3" class="custom-image img-fluid">
+    </div>
 
+    <div class="thumbnail-container">
+        <img src="Amsterdam.jpeg" alt="City 1" class="custom-image img-fluid thumbnail">
+        <img src="Paris.jpeg" alt="City 2" class="custom-image img-fluid thumbnail">
+        <img src="Preston.jpeg" alt="City 3" class="custom-image img-fluid thumbnail">
+    </div>
 
+    <caption>Explore the connection between letters and their associated cities, rivers, and trees in this table (Letters: A, P, P, A, L, A).</caption>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Letter</th>
+            <th scope="col">City</th>
+            <th scope="col">River</th>
+            <th scope="col">Tree</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-warning">
+            <td>A</td>
+            <td>Amsterdam</td>
+            <td>Amazon</td>
+            <td>Apple Tree</td>
+        </tr>
+        <tr class="table-danger">
+            <td>P</td>
+            <td>Paris</td>
+            <td>Potomac</td>
+            <td>Pine Tree</td>
+        </tr>
+        <tr class="table-danger">
+            <td>P</td>
+            <td>Preston</td>
+            <td>Pearl</td>
+            <td>Poplar Tree</td>
+        </tr>
+        <tr class="table-warning">
+            <td>A</td>
+            <td>Abu Dhabi</td>
+            <td>Amazon</td>
+            <td>Almond Tree</td>
+        </tr>
+        <tr class="table-success">
+            <td>L</td>
+            <td>London</td>
+            <td>Loire</td>
+            <td>Linden Tree</td>
+        </tr>
+        <tr class="table-warning">
+            <td>A</td>
+            <td>Austin</td>
+            <td>Ashburton</td>
+            <td>Acacia Tree</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <div class="container">
+        <div class="btn-toolbar" role="toolbar" aria-label="Button Groups">
+            
+            <div class="btn-group" role="group" aria-label="Group 1">
+                <button type="button" class="btn btn-success">A</button>
+                <button type="button" class="btn btn-success">P</button>
+                <button type="button" class="btn btn-success">P</button>
+            </div>
+    
+            
+            <div class="btn-group" role="group" aria-label="Group 2">
+                <button type="button" class="btn btn-warning">A</button>
+                <button type="button" class="btn btn-warning">L</button>
+            </div>
+    
+            
+            <div class="btn-group" role="group" aria-label="Group 3">
+                <button type="button" class="btn btn-danger">A</button>
+            </div>
+        </div>
+    </div>
+    
+    <form>
+    
+    
+        <div class="form-group">
+            
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your info with anyone else.</small>
+             
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter your city">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    
+    </form>
+    
+    <div class="card">
+        <img src="Amsterdam.jpeg" class="card-img-top" alt="Amsterdam">
+        <div class="card-body">
+            <h5 class="card-title">Amsterdam</h5>
+            <p class="card-text">Experience the beauty of Amsterdam's Canals.</p>
+            <a href="https://en.wikipedia.org/wiki/Amsterdam" class="btn btn-primary">Know More</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="Paris.jpeg" class="card-img-top" alt="Paris">
+        <div class="card-body">
+            <h5 class="card-title">Paris</h5>
+            <p class="card-text">Explore the Eiffel Tower of Paris.</p>
+            <a href="https://en.wikipedia.org/wiki/Paris" class="btn btn-primary">Know More</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="Preston.jpeg" class="card-img-top" alt="Preston">
+        <div class="card-body">
+            <h5 class="card-title">Preston</h5>
+            <p class="card-text">Discover the beauty of Preston's views.</p>
+            <a href="https://en.wikipedia.org/wiki/Amsterdam" class="btn btn-primary">Know More</a>
+        </div>
+    </div>
+    
 
 
 
